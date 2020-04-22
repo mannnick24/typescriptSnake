@@ -23,7 +23,7 @@ export class Board extends BoardUpdate
 
     public popUpdates()
     {
-        this.updateBoard( ...this.boardLayout.gulpGenerator().popUpdates() );
+        this.updateBoard( ...this.boardLayout.gulpGenerator().gulps() );
         this.updateBoard( ...this.snake.popUpdates() );
         return super.popUpdates();
     }
