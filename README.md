@@ -10,6 +10,6 @@ Version 2 will change this mechanism to create a smoother feel, I'm also going t
 
 To run version 1:
 npm install
-tsc
-npm run start
-then go to localhost:8080
+* tsc
+* npm run start
+* then go to localhost:8080
