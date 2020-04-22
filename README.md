@@ -7,3 +7,9 @@ After completeing https://www.udemy.com/course/understanding-typescript I tested
 The first version uses a coordinate system of game squares and the snake moves by providing coordinate updates, which are rendered by the canvas bpard view on a game loop, this gives a jerky 8 bit feel to the game.
 
 Version 2 will change this mechanism to create a smoother feel, I'm also going to use webpack and try and fit some generics in there somewhere!
+
+To run version 1:
+npm install
+tsc
+npm run start
+then go to localhost:8080
